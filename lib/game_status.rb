@@ -26,7 +26,7 @@ def won?(board)
 def full?(board) #  Select, detect, reject,find
   counter = 0
       board.select do |list|
-        list.any?
+       if list == "X" or list == "O"
 end
   counter += 1
 end
