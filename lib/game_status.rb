@@ -30,6 +30,7 @@ def full?(board) #  Select, detect, reject,find
 end
   counter += 1
 end
+end
 def draw?(board) #
 
 end
