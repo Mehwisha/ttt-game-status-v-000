@@ -27,7 +27,7 @@ def full?(board) #  Select, detect, reject,find
   counter = 0
       board.each do |win_combination|
         win_combination.select
-      
+
 end
   counter += 1
 end
