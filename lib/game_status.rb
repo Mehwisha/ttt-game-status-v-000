@@ -24,7 +24,7 @@ def won?(board)
  end
 
 def full?(board) #  Select, detect, reject,find
-      board.select do|win_combination|
+      board.reject do|win_combination|
 
 end
 end
