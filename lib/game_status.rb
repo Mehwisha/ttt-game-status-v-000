@@ -25,7 +25,7 @@ def won?(board)
 
 def full?(board) #  Select, detect, reject,find
       board.each do |win_combination|
-        board[win_combination[0]] == "X" || board[win_combination[0]]== "O"
+        win_combination == "X" ||  win_combination== "O"
 end
 end
 def draw?(board) #
