@@ -29,7 +29,6 @@ def full?(board) #  Select, detect, reject,find
       }
 
 end
-end
 def draw?(board) #
 
 end
